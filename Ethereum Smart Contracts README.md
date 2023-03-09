@@ -7,7 +7,8 @@ The front-end is built with:
 
 The backend is built with:
 1. Solidity
-2. Deployed to Polygon Testnet
+2. Deployed to Ethereum Goerli Testnet
+Deployed smart contract link: https://goerli.etherscan.io/address/0x28b1481aA1fa2dbf887eF560Db9CB2007746D523
 
 ## How it Works
 The app works by allowing users to purchase fruits with Ethereum. To use the app, the user has to log in with either metamask or WalletConnect. Once logged in, the next steps are as follows:
@@ -43,4 +44,4 @@ The details encoded on the blockchain include:
 ![events](https://user-images.githubusercontent.com/60107787/223988116-d3ba9c39-e779-4099-b028-637ad63178c8.jpg)
 
 ## Challenges
-During testing, I had problems testing with the Goerli testnet. The gas fees were too high upto 3 ETH and I couldn't find enough testnet eth to do transactions as most testnets only give small amounts up to 0.1 ETH and requesting for more testnet funds is restricted to one per day via IP address tracking. Luckily other EVM testnets are well maintined and efficient and I managed to test and deployed on Polygonscan.
+During testing, I had problems testing with the Goerli testnet. The gas fees were too high upto and I couldn't find enough testnet eth to do transactions as most testnets only give small amounts up to 0.1 ETH and requesting for more testnet funds is restricted to one per day via IP address tracking. Luckily other EVM testnets are well maintined and efficient and I managed test on Polygon in the meantime. I later reduced the price of the fruits to account for the high Goerli fees so as to deploy on Ethereum Goerli.
