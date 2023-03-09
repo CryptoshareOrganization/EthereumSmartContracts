@@ -19,7 +19,21 @@ The app works by allowing users to purchase fruits with Ethereum. To use the app
 ![shop](https://user-images.githubusercontent.com/60107787/223988531-69d819ce-800a-4976-a62d-47687efa9585.jpg)
 
 
-Once a transaction is made, the details of the pruchase is encoded and stored on the blockchain. The technology behind the encoding and storing of transaction details is Ethereum events.
+Once a transaction is made, the details of the pruchase is encoded and stored on the blockchain. The technology behind the encoding and storing of transaction details is Ethereum events. 
+
+Ethereum events are emitted once an event variable is set in the code and programmed to emit once a function has been called and the transaction succesfully completed.
+
+Setting an event variable
+```
+ // Events to notify when a fruit is sold
+    event FruitSold(address buyer, uint256 quantity, uint256 price, string fruit);
+```
+
+Example of emitting an event variable once a function is executed
+```
+ emit FruitSold(msg.sender, quantity, msg.value, "apple");
+```
+
 The details encoded on the blockchain include:
 1. Buyer address.
 2. Quantity of fruit bought.
