@@ -1,16 +1,16 @@
 import React from 'react';
 import {Fruitpayment} from "./Components/Fruit"
-import {Config, DAppProvider, Mumbai} from "@usedapp/core"
+import {Config, DAppProvider, Goerli} from "@usedapp/core"
 
 
 
 function App() {
   const config: Config = {
-    readOnlyChainId: Mumbai.chainId,
+    readOnlyChainId: Goerli.chainId,
     readOnlyUrls: {
-      [Mumbai.chainId]: 'put your Infura or Alchemy Mumbai RPC URL here',
+      [Goerli.chainId]: 'put your Infura or Alchemy RPC URL here ',
     },
-    networks: [Mumbai],
+    networks: [Goerli],
     notifications: {
       expirationPeriod: 1000,
       checkInterval: 1000

@@ -125,7 +125,7 @@ export const Fruitpayment = () => {
   const sendCountValue = () => {
     if (fruitType === "apple") {
 
-      const bal = 0.02 * count
+      const bal = 0.0002 * count
     if (formattedBalance < bal) {
       setEnoughEthState(false)
     }
@@ -134,7 +134,7 @@ export const Fruitpayment = () => {
 
     } else if (fruitType === "banana") {
 
-      const bal = 0.03 * count
+      const bal = 0.0003 * count
     if (formattedBalance < bal) {
       setEnoughEthState(false)
     }
@@ -143,7 +143,7 @@ export const Fruitpayment = () => {
 
     } else if (fruitType === "strawberry") {
 
-      const bal = 0.04 * count
+      const bal = 0.0004 * count
     if (formattedBalance < bal) {
       setEnoughEthState(false)
     }
@@ -154,7 +154,7 @@ export const Fruitpayment = () => {
 
     else if (fruitType === "mango") {
 
-      const bal = 0.05 * count
+      const bal = 0.0005 * count
     if (formattedBalance < bal) {
       setEnoughEthState(false)
     }
@@ -241,10 +241,10 @@ export const Fruitpayment = () => {
                        
                     </Select>
                 </FormControl>
-                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Apple is 0.02 ETH</Box>
-                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Banana is 0.03 ETH</Box>
-                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Strawberry is 0.04 ETH</Box>
-                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Mango is 0.05 ETH</Box>
+                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Apple is 0.0002 ETH</Box>
+                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Banana is 0.0003 ETH</Box>
+                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Strawberry is 0.0004 ETH</Box>
+                <Box component="span" sx={{ color: "primary.main", fontSize: 20, mt: 1, fontWeight: "medium", fontFamily: 'Audiowide' }}>1 Mango is 0.0005 ETH</Box>
               <Box sx={{
                 display: "flex",
                 flexDirection: "row",

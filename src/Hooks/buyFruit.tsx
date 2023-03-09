@@ -6,7 +6,7 @@ import { Contract } from "@ethersproject/contracts"
 export const Sendpurchase = () => {
     const { abi } = FRT
 
-    const fruitContractAddress = "0xC2bD0b3c8a2095E1d5741F7759982e3Ed995A758"
+    const fruitContractAddress = "0x28b1481aA1fa2dbf887eF560Db9CB2007746D523"
 
 
     const fruitInterface = new utils.Interface(abi)
@@ -16,7 +16,7 @@ export const Sendpurchase = () => {
         useContractFunction(fruitContract, "buyApple", { transactionName: "fruitpurchase" })
 
     const sendAppleAmount = (fruitAmount: number) => {
-        const fruitCost = fruitAmount * 0.02
+        const fruitCost = fruitAmount * 0.0002
         const asString = fruitCost.toString()
         buyAppleFruit(fruitAmount, { value: utils.parseEther(asString) })
     }
@@ -25,7 +25,7 @@ export const Sendpurchase = () => {
         useContractFunction(fruitContract, "buyBanana", { transactionName: "fruitpurchase" })
 
     const sendBananaAmount = (fruitAmount: number) => {
-        const fruitCost = fruitAmount * 0.03
+        const fruitCost = fruitAmount * 0.0003
         const asString = fruitCost.toString()
         buyBananaFruit(fruitAmount, { value: utils.parseEther(asString) })
     }
@@ -34,7 +34,7 @@ export const Sendpurchase = () => {
         useContractFunction(fruitContract, "buyStrawberry", { transactionName: "fruitpurchase" })
 
     const sendStrawberryAmount = (fruitAmount: number) => {
-        const fruitCost = fruitAmount * 0.04
+        const fruitCost = fruitAmount * 0.0004
         const asString = fruitCost.toString()
         buyStrawberryFruit(fruitAmount, { value: utils.parseEther(asString) })
     }
@@ -43,7 +43,7 @@ export const Sendpurchase = () => {
         useContractFunction(fruitContract, "buyMango", { transactionName: "fruitpurchase" })
 
     const sendMangoAmount = (fruitAmount: number) => {
-        const fruitCost = fruitAmount * 0.05
+        const fruitCost = fruitAmount * 0.0005
         const asString = fruitCost.toString()
         buyMangoFruit(fruitAmount, { value: utils.parseEther(asString) })
     }
