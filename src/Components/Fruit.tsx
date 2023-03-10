@@ -90,6 +90,7 @@ export const Fruitpayment = () => {
     ? parseFloat(formatUnits(etherBalance, 18))
     : 0;
   console.log(formattedBalance)
+  
   const isConnected = account !== undefined
 
   const networkName = chainId ? helperConfig[chainId] : "dev"
@@ -99,7 +100,7 @@ export const Fruitpayment = () => {
 
 
   const { notifications } = useNotifications();
-  const [count, setCount] = useState<number>(1)
+  
 
   const increment = () => {
     if (count < 9) {
@@ -116,6 +117,8 @@ export const Fruitpayment = () => {
       setCount((count) => count - 1)
     }
   }
+
+  const [count, setCount] = useState<number>(1)
 
   const {sendAppleAmount, applePurchaseState, sendBananaAmount, bananaPurchaseState, sendStrawberryAmount, strawberryPurchaseState, sendMangoAmount, mangoPurchaseState} = Sendpurchase()
 
