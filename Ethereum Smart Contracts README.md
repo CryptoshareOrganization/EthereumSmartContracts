@@ -4,6 +4,8 @@ For Deployment AWS EC2 Instance & NGnix
 
 Video Demonstration: https://www.loom.com/share/ead60f7f662d4b18bcb93889b9c5fd6f
 
+Deployment: https://cryptoshareorganization.github.io/EthereumSmartContracts/
+
 ------
 This project is a fruit shop model built on the Ethereum ecosystem. It's a full-stack app with a front-end and a smart contract backend. 
 The front-end is built with:
