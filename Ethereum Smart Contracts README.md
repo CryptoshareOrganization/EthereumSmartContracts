@@ -13,6 +13,7 @@ The front-end is built with:
 The backend is built with:
 1. Solidity
 2. Deployed to Ethereum Goerli Testnet
+3. 
 Deployed smart contract link: https://goerli.etherscan.io/address/0x28b1481aA1fa2dbf887eF560Db9CB2007746D523 
 
 
