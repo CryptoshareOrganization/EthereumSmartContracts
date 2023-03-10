@@ -1,5 +1,8 @@
 # Ethereum Smart Contract Fruit Shop Model
 
+For Deployment AWS EC2 Instance & NGnix
+
+------
 This project is a fruit shop model built on the Ethereum ecosystem. It's a full-stack app with a front-end and a smart contract backend. 
 The front-end is built with:
 1. Material UI
@@ -8,7 +11,8 @@ The front-end is built with:
 The backend is built with:
 1. Solidity
 2. Deployed to Ethereum Goerli Testnet
-Deployed smart contract link: https://goerli.etherscan.io/address/0x28b1481aA1fa2dbf887eF560Db9CB2007746D523
+Deployed smart contract link: https://goerli.etherscan.io/address/0x28b1481aA1fa2dbf887eF560Db9CB2007746D523 
+
 
 ## How it Works
 The app works by allowing users to purchase fruits with Ethereum. To use the app, the user has to log in with either metamask or WalletConnect. Once logged in, the next steps are as follows:
