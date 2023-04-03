@@ -24,7 +24,7 @@ The app works by allowing users to purchase fruits with Ethereum. To use the app
 1. Choose the fruit.
 2. Choose the quantity.
 3. Make the purchase.
-4, Approve the transaction on the wallet.
+4. Approve the transaction on the wallet.
 
 ![shop](https://user-images.githubusercontent.com/60107787/223988531-69d819ce-800a-4976-a62d-47687efa9585.jpg)
 
